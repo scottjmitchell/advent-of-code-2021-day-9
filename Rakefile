@@ -8,9 +8,9 @@ RuboCop::RakeTask.new(:lint) do |task|
 end
 
 task :run do
-  ruby 'lib/8.rb'
+  ruby 'lib/9.rb'
 end
 
 task :test do
-  ruby 'test/8_test.rb'
+  ruby 'test/9_test.rb'
 end
